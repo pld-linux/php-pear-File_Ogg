@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          File
-%define         _subclass       Ogg
+%define		_class		File
+%define		_subclass	Ogg
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Access Ogg bitstreams
-Summary(pl):	%{_pearname} - Dostêp do strumieni Ogg
+Summary:	%{_pearname} - access Ogg bitstreams
+Summary(pl):	%{_pearname} - dostêp do strumieni Ogg
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
 Release:	1
