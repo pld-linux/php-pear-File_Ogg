@@ -13,7 +13,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	6adb3125201bae33bc975aac6b5e9230
-URL:		http://pear.php.net/package/%{_pearname}/
+URL:		http://pear.php.net/package/File_Ogg/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
