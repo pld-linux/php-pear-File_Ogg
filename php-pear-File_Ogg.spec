@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - access Ogg bitstreams
-Summary(pl):	%{_pearname} - dostêp do strumieni Ogg
+Summary(pl.UTF-8):   %{_pearname} - dostÄ™p do strumieni Ogg
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
 Release:	2.1
@@ -25,8 +25,8 @@ bitstream.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet umo¿liwia dostêp do ró¿nego rodzaju mediów wewn±trz
+%description -l pl.UTF-8
+Ten pakiet umoÅ¼liwia dostÄ™p do rÃ³Å¼nego rodzaju mediÃ³w wewnÄ…trz
 strumienia Ogg.
 
 Ta klasa ma w PEAR status: %{_status}.
