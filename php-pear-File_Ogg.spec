@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - access Ogg bitstreams
-Summary(pl.UTF-8):   %{_pearname} - dostęp do strumieni Ogg
+Summary(pl.UTF-8):	%{_pearname} - dostęp do strumieni Ogg
 Name:		php-pear-%{_pearname}
 Version:	0.2.1
 Release:	1
