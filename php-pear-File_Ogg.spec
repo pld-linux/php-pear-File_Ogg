@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - access Ogg bitstreams
 Summary(pl.UTF-8):	%{_pearname} - dostęp do strumieni Ogg
 Name:		php-pear-%{_pearname}
-Version:	0.3.0
+Version:	0.3.1
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	3a94216cf1d86a896efe0e545fb0756a
+# Source0-md5:	ff2b90cb862818eeadb521a0547cbe3b
 URL:		http://pear.php.net/package/File_Ogg/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
