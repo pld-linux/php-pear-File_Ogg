@@ -1,14 +1,11 @@
-%include	/usr/lib/rpm/macros.php
-%define		_class		File
-%define		_subclass	Ogg
 %define		_status		beta
-%define		_pearname	%{_class}_%{_subclass}
-
+%define		_pearname	File_Ogg
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - access Ogg bitstreams
 Summary(pl.UTF-8):	%{_pearname} - dostęp do strumieni Ogg
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -17,7 +14,7 @@ URL:		http://pear.php.net/package/File_Ogg/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-common >= 3:4.1.0
+Requires:	php(core) >= 4.1.0
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -49,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}
+%{php_pear_dir}/File/*.php
+%{php_pear_dir}/File/Ogg
