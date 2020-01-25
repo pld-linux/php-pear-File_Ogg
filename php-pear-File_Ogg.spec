@@ -1,6 +1,5 @@
 %define		_status		beta
 %define		_pearname	File_Ogg
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - access Ogg bitstreams
 Summary(pl.UTF-8):	%{_pearname} - dostęp do strumieni Ogg
 Name:		php-pear-%{_pearname}
